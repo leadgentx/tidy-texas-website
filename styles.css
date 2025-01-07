@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header .menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .btn {
+    background: #f4b41a;
+    color: #333;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
